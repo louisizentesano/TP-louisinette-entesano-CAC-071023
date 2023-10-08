@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Louisinette Entesano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/23544_TP_louisinette_entesano.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/codoacodo.png" alt="Logo">
+                <a class="nav-link conf-bs-as" aria-current="page" href="#">Conf Bs As</a>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link oradores" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link lugar" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link convert" href="#">Conviértete en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link tickets" href="#">Comprar tickets</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="full-width-carousel-container">
+            <div id="imageCarousel" class="carousel slide full-width-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                       <img src="./images/ba1.jpg" class="d-block w-100" alt="ba1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/ba2.jpg" class="d-block w-100" alt="ba2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/ba3.jpg" class="d-block w-100" alt="ba3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+                <div class="carousel-title-container" id="carousel-title">
+                    <p>Conf Bs As</p>
+            </div>
+        </div>
+    </div>
+        <div class="text-container">
+            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con</p>
+            <p>nuestra comunidad el conocimiento y experiencia de los expertos que</p>
+            <p>estan creando el futuro de Internet. Ven a conocer a miembros del</p>
+            <p>evento a otros estdiantes de Codo a Codo y los oradores de primer</p>
+            <p>nivel que tenemos para ti. Te esperamos!</p>
+            <div class="button-container">
+                <button type="submit" class="btn btn-outline-light">Quiero ser orador</button>
+                <button type="submit" class="btn btn-success">Comprar tickets</button>
+            </div>
+        </div>
+
+        <div class="additional-text">
+            <p class="small-text">CONOCE A LOS</p>
+            <p class="large-text">ORADORES</p>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/steve.jpg" alt="Imagen 1" class="card-image">
+                <div class="card-icons">
+                    <button class="icon-button icon-javascript" id="buttonjs"><strong>JavaScript</strong></button>
+                    <button class="icon-button icon-react" id="buttonreact"><strong>React</strong></button>
+                </div>
+                <p class="card-name">Steve Jobs</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto repellat eos
+                    provident neque libero non at. Sint, iusto. Possimus, maiores assumenda nobis quisquam quam
+                    veritatis explicabo quas dolorum obcaecati similique.</p>
+            </div>
+            <div class="card">
+                <img src="./images/bill.jpg" alt="Imagen 2" class="card-image">
+                <div class="card-icons">
+                    <button class="icon-button icon-javascript" id="buttonjs"><strong>JavaScript</strong></button>
+                    <button class="icon-button icon-react" id="buttonreact"><strong>React</strong></button>
+                </div>
+                <p class="card-name">Bill Gates</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse culpa error est
+                    incidunt? Nulla sapiente beatae animi quaerat, ipsum laudantium nesciunt expedita dolor harum neque.
+                    Expedita, nobis. Explicabo, cumque optio!.</p>
+            </div>
+            <div class="card">
+                <img src="./images/ada.jpeg" alt="Imagen 3" class="card-image">
+                <div class="card-icons">
+                    <button class="icon-button icon-negocios" id="buttonnegocios"><strong>Negocios</strong></button>
+                    <button class="icon-button icon-startups" id="buttonstartups"><strong>Startups</strong></button>
+                </div>
+                <p class="card-name">Ada Lovelace</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae adipisci rem
+                    repellat incidunt fugiat quibusdam commodi at nesciunt similique possimus. Molestias laboriosam odio
+                    dolor unde ad alias architecto iure voluptatibus?</p>
+            </div>
+        </div>
+
+        <div class="split-screen">
+            <div class="left-panel">
+                <img src="./images/honolulu.jpg" alt="Imagen" class="left-image">
+            </div>
+            <div class="right-panel">
+                <div class="right-content">
+                    <h2>Bs As - Octubre</h2>
+                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados
+                        Unidos. Honolulu es la</p>
+                    <p>más sureña entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se
+                        refiere al área</p>
+                    <p>urbana de la costa sureste de la isla de Oahu , la ciudad y el condado de Honolulu han formado
+                        una ciudad-</p>
+                    <p>condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup>de superficie).
+                    </p>
+                    <button type="conocemas" class="btn btn-outline-light">Conocé más</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="additional-text-text2y3">
+            <p class="small-text">CONVIÉRTETE EN UN</p>
+            <p class="large-text">ORADOR</p>
+            <p class="medium-text">Anótate como orador para dar una <span class="dotted-text">charla ignite</span>.
+                Cuéntanos de qué quieres hablar!</p>
+        </div>
+
+    </main>
+        <div class="container">
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <div class="form-control-group">
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="charla" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
+                    <small class="form-text" id="titulo-charla">Recuerda incluir un título para tu charla.</small>
+                </div>
+                <button type="submit" class="btn btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="navbarbotton">
+            <ul class="nav-linksbottom">
+                <li class="nav-itembottom">
+                    <a class="nav-link preguntas" aria-current="page" href="#">Preguntas
+                        frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link contactanos" href="#">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link prensa" href="#">Prensa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link conferencias" href="#">Conferencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link terminos" aria-current="page" href="#">Términos y
+                        condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link privacidad" href="#">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link estudiantes" href="#">Estudiantes</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
