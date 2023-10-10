@@ -15,9 +15,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 12px;
-    /* white-space: nowrap; /* Evita el ajuste de línea */
-    /*overflow: hidden; /* Evita el desbordamiento de texto */
-    /*flex-wrap: nowrap; /* Evita que los elementos se envuelvan a múltiples líneas */
 }
 
 .logo {
@@ -39,25 +36,18 @@ body {
     padding: 0;
 }
 
-
 .nav-link {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    /* Tamaño de fuente para otros textos */
     line-height: 1.6;
-    /* Altura de línea para "Conf Bs As" */
     margin-right: 1px;
-    /* Ajusta el margen derecho según tus preferencias */
 }
 
 .conf-bs-as {
     font-size: 23px;
-    /* Tamaño de fuente más grande para "Conf Bs As" */
     line-height: 1;
-    /* Altura de línea para "Conf Bs As" */
     color: white;
-    /* Color de texto blanco */
 }
 
 .oradores {
@@ -75,7 +65,6 @@ body {
 .tickets {
     color: rgb(114, 186, 114);
     margin-right: 1cm
-        /* Igual al margen izquierdo del logo */
 }
 
 .full-width-carousel-container {
@@ -83,9 +72,7 @@ body {
     margin: 0;
     padding: 0;
     max-height: 600px;
-    /* Ajusta la altura máxima según tus preferencias */
     overflow: hidden;
-    /* Evita que el carrusel se desborde si la imagen es demasiado grande */
     position: relative;
 }
 
@@ -97,36 +84,32 @@ body {
     color: white;
     font-size: 35px;
     position: absolute;
-    top: 20%; /* Ajusta la posición vertical según tus preferencias */
-    left: 1230px; /* Ajusta la posición horizontal según tus preferencias */
-    z-index: 1; /* Coloca el título del carrusel por encima de las imágenes */
+    top: 20%;  
+    left: 1230px;  
+    z-index: 1;  
 }
 
 .text-container {
     position: absolute;
     font-size: 18px;
-    top: 60%; /* Centra verticalmente en relación con el contenedor padre */
-    right: 0; /* Alinea a la derecha del contenedor padre */
-    transform: translateY(-50%); /* Corrige la alineación vertical */
+    top: 60%;  
+    right: 0;  
+    transform: translateY(-50%);  
     color: white;
     padding: 2px;
-    text-align: right;   /* Justifica el texto a la derecha */
-    margin-right: 120px;   /*Ajusta el margen derecho según tus preferencias */
-    
-    line-height: 0.5; /* Establece el espacio de interlineado a 1, lo que reduce el espacio entre líneas al mínimo */    
+    text-align: right;    
+    margin-right: 120px;    
+    line-height: 0.5;     
 }
 
 .button-container {
     display: flex;
     justify-content: flex-end;
-    /* Alinea los botones a la derecha */
     margin-top: 30px;
-    /* Ajusta la distancia entre el texto y los botones según tus preferencias */
 }
 
 .button-container button {
     margin-left: 10px;
-    /* Añade un espacio entre los botones si lo deseas */
 }
 
 .image-container img {
@@ -136,26 +119,21 @@ body {
 .small-text {
     margin-top: 0.2cm;
     text-align: center;
-    /* Centra el texto horizontalmente */
     font-size: 12px;
-    /* Tamaño de fuente más pequeño para "ORADORES y ORADOR" */
     margin-bottom: 0;
 }
 
 .large-text {
     margin-top: 0;
-    /* Elimina la separación entre el texto y su contenedor */
     text-align: center;
-    /* Centra el texto horizontalmente */
     font-size: 30px;
-    /* Tamaño de fuente grande para "CONOCE A LOS y CONVIERTE EN UN" */
     font-weight: 600;
     margin-bottom: 0;
 }
 
 .medium-text {
     text-align: center;
-    font-size: 16px; /* Tamaño de fuente medio para "Anótate como orador para dar una charla ignite." */
+    font-size: 16px; 
     margin-bottom: 0;
 }
 
@@ -232,15 +210,14 @@ body {
     margin-bottom: 5px;
     margin-left: 0.5cm;
     margin-right: 0.5cm;
-    padding-bottom: 15px; /* Añade un espacio en la parte inferior del texto */
+    padding-bottom: 15px;  
 }
-
-/* Estilos para la división en dos paneles */
+ 
 .split-screen {
     display: flex;
-    height: 13.5cm; /* Ajusta la altura según tus preferencias */
-    background-color: #f7f7f7; /* Color de fondo para toda la sección */
-    margin: 0; /* Elimina el margen predeterminado de la página */
+    height: 13.5cm;  
+    background-color: #f7f7f7;  
+    margin: 0;  
     max-width: 100%; 
 }
 
@@ -250,41 +227,41 @@ body {
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 1cm;
-    padding: 0; /* Elimina el espacio interno en el panel izquierdo */
+    padding: 0;  
 }
 
 .left-image {
-    width: 100%; /* La imagen se ajustará al tamaño del contenedor */
-    height: 100%; /* La imagen se ajustará al tamaño del contenedor */
+    width: 100%;  
+    height: 100%;  
 }
 
 .right-panel {
     flex: 1; 
-    justify-content: flex-end; /* Extremo derecho */
-    padding: 0; /* Espacio interno en el panel derecho */
+    justify-content: flex-end;  
+    padding: 0;  
     text-align: left;
     background-color: rgb(62, 61, 61);
     margin-bottom: 1cm;
 }
 
 .right-content {
-    max-width: 100%; /* Ajusta el ancho máximo del contenido según tus preferencias */
-    padding: 10px; /* Añade un espacio interno al contenido del panel derecho */
+    max-width: 100%;  
+    padding: 10px;  
 }
 
 .right-content h2 {
     margin-left: 6px;
-    font-size: 24px; /* Tamaño de fuente para el título */
-    margin-bottom: 10px; /* Espacio entre el título y el texto */
+    font-size: 24px;  
+    margin-bottom: 10px;  
     color: #f7f7f7;
 }
 
 .right-content p {
     margin-left: 6px;
-    font-size: 14px; /* Tamaño de fuente para el texto */
-    margin-bottom: 10px; /* Espacio entre párrafos */
+    font-size: 14px; 
+    margin-bottom: 10px;  
     color: #f7f7f7;
-    line-height: 1; /* Establece el espacio entre líneas a un valor bajo o 1 para eliminarlo */
+    line-height: 1;  
 }
 
 .conocemas {
@@ -324,7 +301,6 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
     flex: 1;
-    /* Hacer que los campos se expandan para ocupar el espacio disponible */
 }
 
 #apellido {
@@ -334,10 +310,7 @@ body {
 #nombre,
 #apellido {
     font-size: 14px;
-    /* Ajusta el tamaño de fuente según tus preferencias */
 }
-
-/* Aplicar fuente más pequeña a los campos "Nombre" y "Apellido" selector de clase .form-control*/
 
 .titulo-charla {
     color: #888;
@@ -349,31 +322,22 @@ button.btn-enviar {
     color: white;
     width: 100%;
     font-size: 20px;
-    /* Otros estilos si los necesitas */
 }
 
-
-/* Estilos para la barra de navegación en el footer */
 .navbarbotton {
     background-image: linear-gradient(to right, #0b3648, #15536d);
     height: 90px;
-    /* Altura de la barra de navegación */
     padding-left: 5cm;
-    /* Espacio izquierdo de 5cm */
     padding-right: 5cm;
-    /* Espacio derecho de 5cm */
     text-align: center;
-    /* Alinea el texto al centro horizontalmente */
     justify-content: space-between;
     align-items: center;
 }
 
-/* Estilos para los enlaces en la barra de navegación en el footer */
 .nav-linksbottom {
     list-style: none;
     display: flex;
     gap: 1cm;
-    /* Espacio horizontal entre los enlaces de 5cm */
     margin: 0;
     padding: 0;
     align-items: center;
@@ -386,7 +350,69 @@ button.btn-enviar {
     line-height: 1.6;
 }
 
-/* Ajusta el espacio derecho del último enlace si es necesario */
 .nav-linksbottom .nav-itembottom:last-child .nav-link {
     margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 10px;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+      .carousel-title-container {
+      font-size: 24px;  
+      top: 10%;  
+      left: 10px;  
+    }
+
+.text-container {
+      font-size: 14px;  
+      top: 40%;  
+      right: 10px;  
+      text-align: left;  
+      margin-right: 10px;  
+      line-height: 1.4;  
+    }
+  
+.button-container button {
+      font-size: 16px;  
+      margin-left: 0;  
+      margin-top: 10px;  
+    }
+  }
+
+  @media (max-width: 576px) {
+    #carousel-title p {
+        font-size: 24px;  
+    }
+
+    .text-container p {
+        font-size: 14px; 
+    }
+
+    .button-container button {
+        font-size: 16px;  
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Haz que las tarjetas ocupen todo el ancho de la pantalla */
+        margin-bottom: 20px; /* Añade espacio entre las tarjetas */
+    }
 }
