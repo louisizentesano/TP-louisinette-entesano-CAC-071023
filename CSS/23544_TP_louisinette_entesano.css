@@ -80,7 +80,7 @@ body {
     filter: brightness(50%);
 }
 
-.carousel-title-container {
+.carousel-title-container h1 {
     color: white;
     font-size: 35px;
     position: absolute;
