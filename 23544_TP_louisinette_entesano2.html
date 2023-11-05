@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Louisinette Entesano JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="./CSS/23544_TP_louisinette_entesano2.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+                <a class="nav-link conf-bs-as" aria-current="page" href="#">Conf Bs As</a>
+            <ul class="nav-links">
+                <li class="nav-item">
+                        <a class="nav-link confe" href="#">La conferencia</a>
+                </li>
+                <li class="nav-item">   
+                    <a class="nav-link oradores" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link lugar" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link convert" aria-current="page" href="#">Conviértete en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link tickets" href="#">Comprar tickets</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-content">
+                <p class="card-text txstrong">Estudiante</p>
+                <p class="card-text">Tienen un descuento</p>
+                <p class="card-text"><b>80%</b></p>
+                <p class="card-text small-text">* Presentar documentación</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <p class="card-text txstrong">Trainee</p>
+                <p class="card-text">Tienen un descuento</p>
+                <p class="card-text"><b>50%</b></p>
+                <p class="card-text small-text">* Presentar documentación</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <p class="card-text txstrong">Junior</p>
+                <p class="card-text">Tienen un descuento</p>
+                <p class="card-text"><b>15%</b></p>
+                <p class="card-text small-text">* Presentar documentación</p>
+            </div>
+        </div>
+    </div>    
+
+    <main>
+
+        <div class="additional-text">
+            <p class="medium-text">VENTA</p>
+            <p class="x-large-text">VALOR DE TICKET $200</p>
+        </div>
+        
+    <div class="form-container">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                </div>
+            </div>
+            <div class="form-group col-12">
+                <input type="email" class="form-control" id="correo" placeholder="Correo">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" class="form-control" id="cantidad" placeholder="cantidad">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="categoria">Categoría:</label>
+                    <select class="form-control" id="categoria">
+                        <option value="opcion1">Estudiante</option>
+                        <option value="opcion2">Trainee</option>
+                        <option value="opcion3">Junior</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group col-12">
+                <input type="text" class="form-control" id="total" placeholder="Total a Pagar: $" readonly>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-md-6">
+                    <button type="reset" class="btn btn-enviar btn-borrar" id="borrar">Borrar</button>
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-enviar btn-resumen" onclick="resumen()" id="resumen">Resumen</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+    <footer>
+        <nav class="navbarbotton">
+            <ul class="nav-linksbottom">
+                <li class="nav-itembottom">
+                    <a class="nav-link preguntas" aria-current="page" href="#">Preguntas
+                        frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link contactanos" href="#">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link prensa" href="#">Prensa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link conferencias" href="#">Conferencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link terminos" aria-current="page" href="#">Términos y
+                        condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link privacidad" href="#">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link estudiantes" href="#">Estudiantes</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <script src ="./JS/23544_TP_louisinette_entesano2_javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
