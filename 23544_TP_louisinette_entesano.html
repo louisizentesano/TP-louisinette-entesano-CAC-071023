@@ -17,33 +17,41 @@
         <nav class="navbar">
             <div class="logo">
                 <img src="./images/codoacodo.png" alt="Logo">
-                <a class="nav-link conf-bs-as" aria-current="page" href="#">Conf Bs As</a>
+                <a id="conf-bs-as-link" class="nav-link conf-bs-as" aria-current="page" href="#">Conf Bs As</a>
             </div>
             <ul class="nav-links">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link oradores" href="#">Los oradores</a>
+                    <a id="los-oradores-link" class="nav-link oradores" href="#">Los oradores</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link lugar" href="#">El lugar y la fecha</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link convert" href="#">Conviértete en orador</a>
+                    <a id="convert-link" class="nav-link convert" href="#">Conviértete en orador</a>
                 </li>
                 <li class="nav-item">
                     <a id="comprar-tickets-link" class="nav-link tickets" href="#">Comprar tickets</a>
                 </li>
                 <script>
-                document.getElementById('comprar-tickets-link').addEventListener('click', function() {
-                    window.location.href = '23544_TP_louisinette_entesano2.html';
-                });
+                    document.getElementById('los-oradores-link').addEventListener('click', function() {
+                        window.location.href = 'orador.html';
+                    });
+
+                    document.getElementById('convert-link').addEventListener('click', function() {
+                        window.location.href = 'orador.html';
+                    });
+                
+                    document.getElementById('comprar-tickets-link').addEventListener('click', function() {
+                        window.location.href = '23544_TP_louisinette_entesano2.html';
+                    });
                 </script>
             </ul>
         </nav>
-    </header>
-
+    </header>   
+    
     <main>
         <div class="full-width-carousel-container">
             <div id="imageCarousel" class="carousel slide full-width-carousel" data-bs-ride="carousel">
