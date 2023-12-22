@@ -12,28 +12,50 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
 </head>
 <body>
+    <body>
     <header>
         <nav class="navbar">
-                <a class="nav-link conf-bs-as" aria-current="page" href="#">Conf Bs As</a>
+            <a id="conf-bs-as-link" class="nav-link conf-bs-as" aria-current="page" href="#">Conf Bs As</a>
             <ul class="nav-links">
                 <li class="nav-item">
-                        <a class="nav-link confe" href="#">La conferencia</a>
+                    <a id="la-conferencia-link" class="nav-link active" aria-current="page" href="#">La conferencia</a>
                 </li>
                 <li class="nav-item">   
-                    <a class="nav-link oradores" href="#">Los oradores</a>
+                    <a id="los-oradores-link" class="nav-link oradores" href="#">Los oradores</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link lugar" href="#">El lugar y la fecha</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link convert" aria-current="page" href="#">Conviértete en orador</a>
+                    <a id="convert-link" class="nav-link convert" href="#">Conviértete en orador</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link tickets" href="#">Comprar tickets</a>
+                    <a id="comprar-tickets-link" class="nav-link tickets" href="#">Comprar tickets</a>
                 </li>
+                <script>
+                    document.getElementById('los-oradores-link').addEventListener('click', function() {
+                        window.location.href = 'orador.html';
+                    });
+
+                    document.getElementById('convert-link').addEventListener('click', function() {
+                        window.location.href = 'orador.html';
+                    });
+                    document.getElementById('conf-bs-as-link').addEventListener('click', function() {
+                        window.location.href = '23544_TP_louisinette_entesano.html';
+                    });
+
+                    document.getElementById('la-conferencia-link').addEventListener('click', function() {
+                        window.location.href = '23544_TP_louisinette_entesano.html';
+                    });
+                
+                    document.getElementById('comprar-tickets-link').addEventListener('click', function() {
+                        window.location.href = '23544_TP_louisinette_entesano2.html';
+                    });
+                </script>
             </ul>
         </nav>
     </header>
+        
     <div class="card-container">
         <div class="card">
             <div class="card-content">
