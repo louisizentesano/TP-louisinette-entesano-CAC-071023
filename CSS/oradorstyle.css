@@ -1,0 +1,142 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1cm;
+
+}
+
+.logo img {
+    width: 25%;
+    margin-right: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-right: 1px;
+}
+
+.conf-bs-as {
+    font-size: 23px;
+    line-height: 1;
+    color: white;
+}
+
+.oradores {
+    color: rgb(158, 156, 157);
+}
+
+.lugar {
+    color: rgb(158, 156, 157);
+}
+
+.convert {
+    color: rgb(158, 156, 157);
+}
+
+.tickets {
+    color: rgb(114, 186, 114);
+    margin-right: 1cm
+}
+
+main {
+    flex: 1; 
+}
+
+.boton-estilo {
+    background-color: rgb(70, 174, 222);
+    border: 1px solid #ccc; 
+    color: blanchedalmond;
+    padding: 8px 20px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+.boton-estilo:hover {
+    background-color: #59ef63; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.navbarbotton {
+    background-image: linear-gradient(to right, #0b3648, #15536d);
+    height: 90px;
+    padding-left: 5cm;
+    padding-right: 5cm;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0; /* Position the footer at the bottom */
+}
+
+
+.nav-linksbottom {
+    list-style: none;
+    display: flex;
+    gap: 1cm;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-linksbottom .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.nav-linksbottom .nav-itembottom:last-child .nav-link {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 10px;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+}
